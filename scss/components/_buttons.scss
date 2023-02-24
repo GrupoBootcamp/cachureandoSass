@@ -1,0 +1,22 @@
+    //header
+    //busqueda de header
+    .nav__item--search{
+        margin-left: 3rem;
+        flex-grow: 1;
+    }
+
+    .nav__buttonSearch{
+        background-color: $colorLetra;
+        border-radius: 15px;
+        color: $colorLetraBoton;
+        text-decoration: none;
+        border: none;
+        padding: 0.5rem;
+        cursor: pointer;
+        transition: all 0.8s;
+        &:hover{
+            //color:white;
+            background-color: $colorBotonHover;
+        
+        }
+    }   

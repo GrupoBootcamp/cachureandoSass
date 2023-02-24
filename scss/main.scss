@@ -1,8 +1,10 @@
 @use 'abstracts/variables';
-@use 'base';
-@use 'components';
-@use 'layout';
-@use 'pages';
-@use 'themes';
-@use 'vendors';
+@use 'base/typography';
+@use 'components/buttons';
+@use 'components/carrousel';
+@use 'layout/footer';
+@use 'layout/header';
+@use 'pages/contacto';
+@use 'pages/encuesta';
+@use 'pages/home';
 

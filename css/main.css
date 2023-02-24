@@ -1,11 +1,51 @@
-@use 'abstracts/variables';
-@use 'base/typography';
-@use 'components/buttons';
-@use 'components/carrousel';
-@use 'layout/footer';
-@use 'layout/header';
-@use 'pages/contacto';
-@use 'pages/encuesta';
-@use 'pages/home';
+@font-face {
+  font-family: 'Roboto';
+  src: url("/fonts/Roboto/Roboto-MediumItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+footer {
+  width: 100%;
+  background-size: cover;
+  background-color: #FADECF;
+  font-size: 0.8rem;
+  color: #756E97; }
+
+.footer_contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: auto; }
+  .footer_contenedor .footer__box {
+    display: flex;
+    flex-direction: column;
+    /* padding: 20px; */ }
+    .footer_contenedor .footer__box .terms {
+      max-width: 400px;
+      font-weight: 600; }
+    .footer_contenedor .footer__box h2 {
+      margin-bottom: 5px;
+      font-weight: 700;
+      font-size: 1rem; }
+    .footer_contenedor .footer__box a {
+      color: #756E97;
+      font-weight: 600;
+      font-size: 0.8rem; }
+      .footer_contenedor .footer__box a:hover {
+        color: #946FA3; }
+
+.footer__copyright {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  /* padding: 10px 10px; */ }
+  .footer__copyright hr {
+    border: none;
+    height: 1px;
+    background-color: #756E97; }
+
+.fechaHora {
+  --bs-text-opacity: 1;
+  text-align: center; }
 
 /*# sourceMappingURL=main.css.map */

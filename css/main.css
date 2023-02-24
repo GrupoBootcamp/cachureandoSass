@@ -18,6 +18,24 @@
   transition: all 0.8s; }
   .nav__buttonSearch:hover {
     background-color: #946FA3; }
+.survey__title {
+  color: #756E97;
+  font-size: 3vw; }
+
+.survey__star {
+  color: #756E97;
+  font-size: 4vw;
+  background: transparent;
+  border: 0; }
+  .survey__star:hover {
+    color: #946FA3; }
+
+.survey__results {
+  text-align: center; }
+
+.survey__results--legend {
+  color: #756E97;
+  font-size: 2.5vw; }
 
 footer {
   width: 100%;
@@ -136,5 +154,12 @@ footer {
           border-bottom: none; }
     .nav .nav__links--visible {
       left: 0; } }
+.survey {
+  font-family: 'Roboto';
+  padding: 15%;
+  justify-content: center;
+  text-align: center;
+  background-color: #FADECF;
+  transition: all 0.5s; }
 
 /*# sourceMappingURL=main.css.map */

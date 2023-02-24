@@ -48,4 +48,12 @@ footer {
   --bs-text-opacity: 1;
   text-align: center; }
 
+.survey {
+  font-family: 'Roboto';
+  padding: 15%;
+  justify-content: center;
+  text-align: center;
+  background-color: #FADECF;
+  transition: all 0.5s; }
+
 /*# sourceMappingURL=main.css.map */

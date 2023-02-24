@@ -1,0 +1,23 @@
+@mixin button-bg($bg) {
+  background: $bg;
+  &:hover {
+    background:darken($bg,8%);
+    transition: all 0.3s ease;
+  }
+  &:active {
+    background:darken($bg,25%);
+  } 
+}
+
+.Form_button {
+    width: 100%;
+	padding: 0.5rem 1rem;
+	color: #fff;
+    background-color: #756E97;
+	font-size: 1.1rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: .3s;
+}
+

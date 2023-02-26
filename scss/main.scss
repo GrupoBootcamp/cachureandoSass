@@ -9,7 +9,13 @@
 @import 'pages/encuesta';
 @import 'pages/home';
 
+body{
+    margin:0;
+    padding: 0;
+    background: $colorPuente;
+    //font-family: fantasy cursive;
 
+}
 
 
 

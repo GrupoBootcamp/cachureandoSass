@@ -1,4 +1,4 @@
-    //header
+    //Inicio del header
     //busqueda de header
     .nav__item--search{
         margin-left: 3rem;
@@ -20,3 +20,18 @@
         
         }
     }   
+    //fin componentes headers
+
+    //Inicio del Footer
+    .footer__socialNetworks{
+        display: flex;
+        flex-direction: column;
+        a{
+            color: $colorLetra;
+            font-weight: 600;
+              &:hover{
+                color:$colorBotonHover
+            }
+        }
+    }
+    // Fin Footer

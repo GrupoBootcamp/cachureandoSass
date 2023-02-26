@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/main.css">
  
-    <title>BEM Cachureando</title>
+    <title>SASS Cachureando</title>
 </head>
 <body>
 
@@ -30,26 +30,26 @@
     <!--Fin Bloque Header-->
 
     <!--Bloque Carrusel-->
-    <section class="carrusel">
-        <div class="carrusel__contenido">
-            <div class="carrusel__caja">
-                <div class="carrusel__elemento">
-                    <img class="carrusel__imagenes" src="/img/tiendainfantil.svg" >
+    <section class="carousel">
+        <div class="carousel__content">
+            <div class="carousel__box">
+                <div class="carousel__element">
+                    <img class="carousel__images" src="/img/tiendainfantil.svg" >
                 </div>
-                <div class="carrusel__elemento">   
-                    <img class="carrusel__imagenes" src="img/productos/b2.svg">
+                <div class="carousel__element">   
+                    <img class="carousel__images" src="img/productos/b2.svg">
                 </div>
-                <div class="carrusel__elemento">   
-                    <img class="carrusel__imagenes" src="img/productos/b3.svg">                        
+                <div class="carousel__element">   
+                    <img class="carousel__images" src="img/productos/b3.svg">                        
                 </div>
             </div>
         </div>
     </section>
     <!--Fin bloque Carrusel-->
 
-    <!--Bloque galeria de imagenes-->
+       <!--Bloque galeria de imagenes-->
 
-    <section class="mainGallery">
+       <section class="mainGallery">
         <h2 class="mainGallery__title">Galería de imágenes</h2>
 
         <div class="gallery">
@@ -162,18 +162,17 @@
 
     <!--Bloque Footer-->
     <footer>
-        <div class="footer_contenedor">
+        <div class="footer_container">
             <div class="footer__box">
-                 <div class="terms">
-                    <h2>Contacto</h2>
-                    <p>
-                        Arlegui 330<br>
-                        Viña del Mar.<br>
-                        Teléfonos: +56 32 28854211 / +56 32 28854330.<br>
-                    </p>
-                </div>
+                 <h2>Contacto</h2>
+                 <p>
+                    Arlegui 330<br>
+                    Viña del Mar.<br>
+                    Teléfonos: +56 32 28854211 / +56 32 28854330.<br>
+                 </p>
+               
             </div>
-            <div class="footer__box">
+            <div class="footer__socialNetworks">
                 <h2>Redes Sociales</h2>
                 <a href="https://www.facebook.com/"> <i class="fab fa-facebook-square"></i> Facebook</a>
                 <a href="https://www.instagram.com/"><i class="fab fa-instagram-square"></i> Instagram</a>
@@ -182,8 +181,8 @@
         <div class="footer__copyright">
             <hr>
             <p >Todos los derechos reservados © 2023 <b>Cachureando </b></p> 
-            <div class="fechaHora" id="reloj"></div>    
-            <div class="fechaHora" id="fecha"></div>
+            <div class="footer__dateTime" id="reloj"></div>    
+            <div class="footer__dateTime" id="fecha"></div>
             <br>
         </div>
     </footer>
